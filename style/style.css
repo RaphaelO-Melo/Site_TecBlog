@@ -29,6 +29,14 @@ h2 {
 	font-size: 1.3em;
 }
 
+h3 {
+	color: #4F4E4B;
+	margin: 0;
+	background-color: #B3B1A9;
+	padding: 10px 10px 10px 10px;
+	font-size: 1.3em;
+}
+
 img { 
 	margin: 10px;
  }
@@ -45,8 +53,7 @@ img {
 }
 
 #content {
-	border: 1px solid red;
-	background-color: green;
+	background-color: #EAE9E7;
 	position: relative;
 	width: 990px;
 	margin-left: auto;
@@ -55,10 +62,20 @@ img {
 
 #right-content {
 	float: right;
-	border: 1px solid red;
-	background-color: blue;
-	margin: 10px;
 	width: 280px;
+	margin: 5px 5px 0 0;
+}
+
+#footer {
+	position: relative;
+	width: 990px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 0.5em;
+	color: #4F4E4B;
+	background-color: #B3B1A9;
+	padding: 15px 0 15px 0px;
 }
 
 .link {
@@ -77,7 +94,6 @@ img {
 
 .post{
 	margin: 10px;
-	border: 1px solid red;
 	background-color: white;
 	font-size: 0.5em;
 	float: left;
@@ -105,13 +121,31 @@ img {
 	font-weight: bold;
 	text-decoration: none;
 	margin: 5px;
-	padding: 0 0 5px 10px;
+	padding: 1px 1px 10px 10px;
+}
+
+.sub-link {
+	color: #E4B51D;
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	margin: 5px;
+	padding: 1px 1px 10px 10px;
 }
 
 .recent {
 	background-color: white;
-	border: 1px solid red;
 	margin: 5px;
+	padding: 5px;
+	font-size: 0.5em;
+}
+
+.categories {
+	background-color: white;
+	margin: 5px;
+	margin-top: 15px;
+	padding: 5px;
+	font-size: 0.5em;
 }
 
 .clear {
