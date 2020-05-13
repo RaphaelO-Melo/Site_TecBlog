@@ -122,8 +122,8 @@ h3 {
 	font-size: 1em;
 	font-weight: bold;
 	text-decoration: none;
-	margin: 5px;
-	padding: 1px 1px 10px 10px;
+	margin: 20px 5px 20px 5px;
+	padding: 10px 1px 10px 10px;
 }
 
 .recent {
@@ -139,6 +139,7 @@ h3 {
 	margin-top: 15px;
 	padding: 5px;
 	font-size: 0.5em;
+	display: block;
 }
 
 /*Formatação do rodapé*/
